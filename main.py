@@ -29,7 +29,7 @@ def synthesize_speech(text, output_filename):
     response = polly.synthesize_speech(
         Text=text,
         OutputFormat='mp3',
-        VoiceId='Salli',
+        VoiceId='Joanna',
         Engine='neural'
     )
 
