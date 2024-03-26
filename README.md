@@ -1,10 +1,6 @@
-Sure, here's a template for a README file for your project:
+# VoiceGPT - An AI voice assistant of chatGPT
 
----
-
-# Voice-Activated Chatbot with OpenAI GPT-3.5 and Bing Speech Recognition
-
-This project is a voice-activated chatbot that utilizes OpenAI's GPT-3.5 model and Bing Speech Recognition for conversational interactions. Users can initiate conversations with the chatbot by saying predefined wake words ("ok bing" or "ok chat"), after which they can speak prompts or questions. The chatbot responds either by engaging in conversation via the GPT-3.5 model or by directly interacting with the user based on predefined commands.
+This project is a voice-activated chatbot that utilizes OpenAI's GPT-3.5 model for conversational interactions. Users can initiate conversations with the chatbot by saying a predefined wake word ("ok chat"), after which they can speak prompts or questions. The chatbot responds by engaging in conversation using the GPT-3.5 model.
 
 ## Table of Contents
 
@@ -21,10 +17,10 @@ Voice-enabled applications are becoming increasingly popular as they provide han
 
 ## Features
 
-- **Voice Activation:** Users can activate the chatbot by speaking wake words ("ok bing" or "ok chat").
-- **Speech Recognition:** Utilizes Bing Speech Recognition to transcribe user speech into text.
-- **Conversational AI:** Engages in conversation with users using OpenAI's GPT-3.5 model or predefined responses.
-- **Voice Synthesis:** Converts text responses into speech using Amazon Polly for natural-sounding output.
+- **Voice Activation:** Users can activate the chatbot by speaking the wake word ("ok chat").
+- **Speech Recognition:** Utilizes a speech recognition library to transcribe user speech into text.
+- **Conversational AI:** Engages in conversation with users using OpenAI's GPT-3.5 model.
+- **Voice Synthesis:** Converts text responses into speech for natural-sounding output.
 - **Flexible Architecture:** The project is built with modularity in mind, allowing for easy integration of additional speech recognition or conversational AI services.
 
 ## Installation
@@ -53,14 +49,11 @@ Voice-enabled applications are becoming increasingly popular as they provide han
     python main.py
     ```
 
-3. Wait for the wake words ("ok bing" or "ok chat") and speak prompts or questions to interact with the chatbot.
+3. Wait for the wake word ("ok chat") and speak prompts or questions to interact with the chatbot.
 
 ## Contributing
 
 Contributions are welcome! If you have any ideas for improvements or new features, feel free to open an issue or submit a pull request.
 
 ## License
-
 ---
-
-Feel free to customize this template to better suit your project's specific details and requirements.
